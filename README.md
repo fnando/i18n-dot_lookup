@@ -1,6 +1,6 @@
 # i18n-dot_lookup
 
-![build status](https://travis-ci.org/fnando/i18n-dot_lookup.svg)
+[![build status](https://travis-ci.org/fnando/i18n-dot_lookup.svg)](https://travis-ci.org/fnando/i18n-dot_lookup)
 
 Ever wanted to get properties from an object, like `%{user.name}`? Now you can!
 
