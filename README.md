@@ -1,6 +1,10 @@
 # i18n-dot_lookup
 
-[![build status](https://travis-ci.org/fnando/i18n-dot_lookup.svg)](https://travis-ci.org/fnando/i18n-dot_lookup)
+[![Travis-CI](https://travis-ci.org/fnando/i18n-dot_lookup.png)](https://travis-ci.org/fnando/i18n-dot_lookup)
+[![Code Climate](https://codeclimate.com/github/fnando/i18n-dot_lookup/badges/gpa.svg)](https://codeclimate.com/github/fnando/i18n-dot_lookup)
+[![Test Coverage](https://codeclimate.com/github/fnando/i18n-dot_lookup/badges/coverage.svg)](https://codeclimate.com/github/fnando/i18n-dot_lookup/coverage)
+[![Gem](https://img.shields.io/gem/v/i18n-dot_lookup.svg)](https://rubygems.org/gems/i18n-dot_lookup)
+[![Gem](https://img.shields.io/gem/dt/i18n-dot_lookup.svg)](https://rubygems.org/gems/i18n-dot_lookup)
 
 Ever wanted to get properties from an object, like `%{user.name}`? Now you can!
 
