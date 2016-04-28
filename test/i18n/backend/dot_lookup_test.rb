@@ -27,6 +27,11 @@ class DotLookupTest < Minitest::Test
     assert_equal "hello ", I18n.t(:hello, user: OpenStruct.new(name: nil))
   end
 
+  test "without interpolation" do
+    store_translations hello: "hello"
+    assert_equal "hello", I18n.t(:hello)
+  end
+
   test "fail when object does not respond to property" do
     store_translations hello: "hello %{user.name}"
 
