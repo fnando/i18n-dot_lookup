@@ -1,15 +1,15 @@
-require 'i18n'
+require "i18n"
 
 module I18n
   module Backend
     class DotLookup < Simple
       KEY_EXTRACTOR     = /%\{(\w+(?:\.\w+)+)\}/
       UNKNOWN_PROPERTY  = Object.new
-      DOT               = '.'.freeze
+      DOT               = ".".freeze
 
-      _verbose, $VERBOSE = $VERBOSE, nil
+      verbose, $VERBOSE = $VERBOSE, nil
       ::I18n::INTERPOLATION_PATTERN = Regexp.union(KEY_EXTRACTOR, ::I18n::INTERPOLATION_PATTERN)
-      $VERBOSE = _verbose
+      $VERBOSE = verbose
 
       def translate(locale, key, options = {})
         raise InvalidLocale.new(locale) unless locale
