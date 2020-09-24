@@ -1,0 +1,23 @@
+---
+inherit_gem:
+  rubocop-fnando: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+
+Naming/FileName:
+  Exclude:
+    - lib/i18n-dot_lookup.rb
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
